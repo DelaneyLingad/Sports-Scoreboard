@@ -18,7 +18,7 @@ function guestAdd1() {
 
 // period counter
 let periodStr = document.getElementById("period")
-periodCounter = 0
+let periodCounter = 0
 
 function incrementPeriod() {
     periodCounter += 1
