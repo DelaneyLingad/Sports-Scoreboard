@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(26, 18, 92);
+    
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* "Period" aspects */
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* "Home" and "Guest" aspects */
+h3 {
+    color: white;
+    text-align: center;
+}
+
+button {
+    font-size: 80px;
+    font-family: "CursedTimer", Verdana;
+    color: rgb(249, 79, 109);
+    background: black;
+    border-radius: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 80%;
+    margin: auto;
+    height: 30vh;
+    width: 45vh;
+}
+
+#period {
+    color: orange;
+    background-color: black;
+    border-color: black;
+    
+    text-align: center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    
+    font-size: 35px;
+}
+
+.new-game {
+    text-align: center;
+}
+
+.new-game button {
+    color: white;
+    
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    margin: 10px auto;
+    margin-top: 50px;
+    background-color: black;
+    font-family: Verdana;
+}
+
+.new-game button:hover {
+    color: rgb(249, 79, 109);
+    border-color: rgb(249, 79, 109);
+}
